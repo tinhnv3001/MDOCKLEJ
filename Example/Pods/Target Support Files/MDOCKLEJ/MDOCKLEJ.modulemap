@@ -1,0 +1,6 @@
+framework module MDOCKLEJ {
+  umbrella header "MDOCKLEJ-umbrella.h"
+
+  export *
+  module * { export * }
+}
