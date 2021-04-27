@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MDOCKLEJ_Example' do
+  pod 'MDOCKLEJ', :path => '../'
+
+  target 'MDOCKLEJ_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
